@@ -1,0 +1,13 @@
+services:
+  nginx:
+    build: nginx
+    volumes:
+      - ./nginx/php.conf:/etc/nginx/conf.d/php.conf
+    ports:
+      - 80:80
+
+  php:
+    build: php
+    working_dir: /var/www/html/
+    volumes:
+      - ./php/:/var/www/html/
