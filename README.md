@@ -7,3 +7,5 @@ docker compose up -d
 ```
 ## PHP
 Slim framework + Nginx
+## Python
+Flask framework
