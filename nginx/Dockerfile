@@ -39,3 +39,5 @@ COPY php.conf /etc/nginx/conf.d/php.conf
 RUN touch /var/www/html/public/index.php
 
 COPY python.conf /etc/nginx/conf.d/python.conf
+
+COPY java.conf /etc/nginx/conf.d/java.conf

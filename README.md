@@ -9,3 +9,10 @@ docker compose up -d
 Slim framework + Nginx
 ## Python
 Flask framework
+## Java
+Java 21 + Spring framework  
+#### Build with maven then run docker compose command
+```shell
+./mvnw clean
+./mvnw package
+```
